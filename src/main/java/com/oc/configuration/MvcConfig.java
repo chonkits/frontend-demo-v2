@@ -29,7 +29,6 @@ public class MvcConfig implements WebMvcConfigurer {
 	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		// create handler reference "css/**" to map to actual location "/css/"
 		registry.addResourceHandler("/WEB-INF/**").addResourceLocations("/WEB-INF/"); 
 	}
 }
